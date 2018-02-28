@@ -3,7 +3,12 @@
 buildscript {
     repositories {
       
-        google()        
+        google()      
+          maven {
+           url 'https://maven.google.com'
+        }
+         An alternative URL is 'https://dl.google.com/dl/android/maven2/'
+        
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.6'
